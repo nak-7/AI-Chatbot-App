@@ -32,6 +32,7 @@ Version Control: Git & GitHub
 **1️⃣ Clone the Repository**
 
 git clone https://github.com/nak-7/AI-Chatbot-App.git
+
 cd AI Chatbot App
 
 **2️⃣ Setup Backend**
@@ -43,7 +44,9 @@ cd backend
 Create and activate a virtual environment:
 
 python -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
 Install dependencies:
