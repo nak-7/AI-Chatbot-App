@@ -1,10 +1,11 @@
-AI Chatbot MVP
+**AI Chatbot MVP**
+
 📌 Overview
 This project is a Minimum Viable Product (MVP) for an AI-powered chatbot web application. It enables real-time interaction between users and an AI model, with chat history stored in an SQLite database for persistence. The project follows a frontend-backend architecture, ensuring clean separation of concerns and easy scalability.
 
 The backend is built using FastAPI for handling requests, integrated with the Google Generative AI API for intelligent responses. The frontend is a simple HTML/CSS/JavaScript interface, designed for fast performance and minimal complexity.
 
-⚙️ How It Works
+**⚙️ How It Works**
 User Input – The user enters a message in the chatbot interface.
 
 API Request – The message is sent to the FastAPI backend via a POST request.
@@ -15,7 +16,7 @@ Display Response – The AI’s reply is sent back to the frontend and displayed
 
 Persistent History – The database ensures chat history is stored and retrievable for future improvements.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Frontend: HTML, CSS, JavaScript
 
 Backend: Python, FastAPI
@@ -24,13 +25,13 @@ AI Integration: Google Generative AI API
 
 Version Control: Git & GitHub
 
-🚀 Steps to Implement the Project
-1️⃣ Clone the Repository
+**🚀 Steps to Implement the Project**
+**1️⃣ Clone the Repository**
 
 git clone https://github.com/nak-7/AI Chatbot App.git
 cd AI Chatbot App
 
-2️⃣ Setup Backend
+**2️⃣ Setup Backend**
 Navigate to the backend folder:
 
 cd backend
@@ -53,21 +54,21 @@ Run the FastAPI server:
 
 uvicorn main:app --reload --port 8000
 
-3️⃣ Setup Frontend
+**3️⃣ Setup Frontend**
 Navigate to the frontend folder.
 
 Open index.html in your browser OR use a local server (e.g., Live Server in VS Code).
 
 Ensure the backend server is running before sending messages.
 
-4️⃣ Run the Application
+**4️⃣ Run the Application**
 Open the chatbot page in your browser.
 
 Type a message and press Send.
 
 The AI response will appear in real-time, and chat history will be saved.
 
-🔮 Future Scope
+**🔮 Future Scope**
 User Authentication – Allow multiple users with separate chat histories.
 
 Advanced UI/UX – Improve design with animations, dark mode, and mobile responsiveness.
@@ -78,7 +79,7 @@ Export Chat History – Let users download conversations as text or PDF.
 
 Multi-language Support – Enable conversations in various languages.
 
-⚠️ Limitations
+**⚠️ Limitations**
 No Contextual Memory – Currently, the chatbot treats each query independently.
 
 Single-User Database – All chat history is stored together without user segregation.
