@@ -1,6 +1,7 @@
 **AI Chatbot MVP**
 
-📌 Overview
+**📌 Overview**
+
 This project is a Minimum Viable Product (MVP) for an AI-powered chatbot web application. It enables real-time interaction between users and an AI model, with chat history stored in an SQLite database for persistence. The project follows a frontend-backend architecture, ensuring clean separation of concerns and easy scalability.
 
 The backend is built using FastAPI for handling requests, integrated with the Google Generative AI API for intelligent responses. The frontend is a simple HTML/CSS/JavaScript interface, designed for fast performance and minimal complexity.
