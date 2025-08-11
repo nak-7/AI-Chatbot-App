@@ -6,6 +6,7 @@ This project is a Minimum Viable Product (MVP) for an AI-powered chatbot web app
 The backend is built using FastAPI for handling requests, integrated with the Google Generative AI API for intelligent responses. The frontend is a simple HTML/CSS/JavaScript interface, designed for fast performance and minimal complexity.
 
 **⚙️ How It Works**
+
 User Input – The user enters a message in the chatbot interface.
 
 API Request – The message is sent to the FastAPI backend via a POST request.
@@ -17,6 +18,7 @@ Display Response – The AI’s reply is sent back to the frontend and displayed
 Persistent History – The database ensures chat history is stored and retrievable for future improvements.
 
 **🛠️ Tech Stack**
+
 Frontend: HTML, CSS, JavaScript
 
 Backend: Python, FastAPI
@@ -26,12 +28,14 @@ AI Integration: Google Generative AI API
 Version Control: Git & GitHub
 
 **🚀 Steps to Implement the Project**
+
 **1️⃣ Clone the Repository**
 
 git clone https://github.com/nak-7/AI Chatbot App.git
 cd AI Chatbot App
 
 **2️⃣ Setup Backend**
+
 Navigate to the backend folder:
 
 cd backend
@@ -55,6 +59,7 @@ Run the FastAPI server:
 uvicorn main:app --reload --port 8000
 
 **3️⃣ Setup Frontend**
+
 Navigate to the frontend folder.
 
 Open index.html in your browser OR use a local server (e.g., Live Server in VS Code).
@@ -62,6 +67,7 @@ Open index.html in your browser OR use a local server (e.g., Live Server in VS C
 Ensure the backend server is running before sending messages.
 
 **4️⃣ Run the Application**
+
 Open the chatbot page in your browser.
 
 Type a message and press Send.
@@ -69,6 +75,7 @@ Type a message and press Send.
 The AI response will appear in real-time, and chat history will be saved.
 
 **🔮 Future Scope**
+
 User Authentication – Allow multiple users with separate chat histories.
 
 Advanced UI/UX – Improve design with animations, dark mode, and mobile responsiveness.
@@ -80,6 +87,7 @@ Export Chat History – Let users download conversations as text or PDF.
 Multi-language Support – Enable conversations in various languages.
 
 **⚠️ Limitations**
+
 No Contextual Memory – Currently, the chatbot treats each query independently.
 
 Single-User Database – All chat history is stored together without user segregation.
